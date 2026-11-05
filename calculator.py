@@ -1,0 +1,10 @@
+print("--- Kalkulator 10 Baris ---")
+num1 = float(input("Masukkan angka pertama: "))
+op = input("Masukkan operasi (+, -, *, /): ")
+num2 = float(input("Masukkan angka kedua: "))
+
+if op == "+": print(f"Hasil: {num1 + num2}")
+elif op == "-": print(f"Hasil: {num1 - num2}")
+elif op == "*": print(f"Hasil: {num1 * num2}")
+elif op == "/": print(f"Hasil: {num1 / num2}")
+else: print("Operasi tidak valid!")
